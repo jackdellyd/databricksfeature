@@ -1,7 +1,7 @@
 # Databricks notebook source
 #Reading the files from ADLS Gen-2 using AAD authentication of the user.
 #Credential passthrough allows you to authenticate automatically to Azure Data Lake Storage from Azure Databricks clusters using the identity that you use to log in to Azure Databricks
-df = spark.read.format("delta").load("abfss://location@gsta2dgdprawzone02.dfs.core.windows.net/location/location/data")
+df = spark.read.format("delta").load("abfss://------.dfs.core.windows.net/location/location/data")
 
 # COMMAND ----------
 
