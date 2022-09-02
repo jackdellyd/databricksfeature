@@ -1,0 +1,5 @@
+*
+!.gitignore
+!str-model
+!str-model/*
+!str-model/*/*
