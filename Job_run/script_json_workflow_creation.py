@@ -64,7 +64,7 @@ body_json = """
             }
         ],
         "git_source": {
-            "git_url": "https://github.gapinc.com/Enterprise-Analytics/PT-Databricksfeaturestore.git",
+            "git_url": "https://github.inc.com/Enterprise-Analytics/PT-Databricksfeaturestore.git",
             "git_provider": "gitHubEnterprise",
             "git_branch": "PTFE-2103"
         },
@@ -77,8 +77,8 @@ print(body_json)
 
 # COMMAND ----------
 
-DOMAIN = 'adb-3452376949060279.19.azuredatabricks.net'
-TOKEN = 'dapi01f73fd71715c387753168d7a31db5d9-3'
+DOMAIN = 'adb-34523769490602.19.azuredatabricks.net'
+TOKEN = 'dapi01f73fd71715c387753168d7a31-3'
 response_jobrun = requests.post(
   'https://%s/api/2.0/jobs/create' % (DOMAIN),
   headers={'Authorization': 'Bearer %s' % TOKEN}
